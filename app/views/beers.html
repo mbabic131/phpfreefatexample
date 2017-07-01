@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>FreeFatApp</title>
+    </head>
+
+    <body>
+        <h1>FreeFat App</h1>
+
+        <repeat group="{{ @beers }}" value="{{ @beer }}">
+            <p>{{ trim(@beer.name) }}</p>
+        </repeat>
+    </body>
+</html>
